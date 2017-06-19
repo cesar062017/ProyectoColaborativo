@@ -9,10 +9,14 @@ package proyectosumarnumerosclases;
  *
  * @author Usuario
  */
+import java.util.Scanner;
 public class ProyectoSumarNumerosClases {
 
     public static void main(String[] args) {
-        // Sumar dos numeros
+        Scanner Input = new Scanner(System.in);
+        int a = Input.nextInt();
+        int b = Input.nextInt();
+        System.out.println(a+b);
     }
     
 }
