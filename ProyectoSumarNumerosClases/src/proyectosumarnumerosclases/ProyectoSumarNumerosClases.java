@@ -16,7 +16,7 @@ public class ProyectoSumarNumerosClases {
         Scanner Input = new Scanner(System.in);
         int a = Input.nextInt();
         int b = Input.nextInt();
-        System.out.println(a+b);
+        System.out.println("La suma de "+ a + "+" + b + " es: " + (a+b));
     }
     
 }
